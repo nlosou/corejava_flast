@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.SplittableRandom;
 
 public class C1_2 {
     public static void main(String[] args)
