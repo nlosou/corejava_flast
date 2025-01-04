@@ -1,6 +1,14 @@
 import java.util.Scanner;
 
+/**
+ * The type C 1 19.
+ */
 public class C1_19 {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static  void main(String[] args)
     {
         Scanner in=new Scanner(System.in);
@@ -21,13 +29,27 @@ public class C1_19 {
     }
 }
 
+/**
+ * The type Judege.
+ */
 class judege {
     private final int[][] arr;
+
+    /**
+     * Instantiates a new Judege.
+     *
+     * @param arr the arr
+     */
     public judege(int[][] arr)
     {
         this.arr=arr;
     }
 
+    /**
+     * Function int.
+     *
+     * @return the int
+     */
     public int function()
     {
        int[] ans=new int[10];

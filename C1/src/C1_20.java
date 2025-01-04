@@ -1,7 +1,15 @@
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * The type C 1 20.
+ */
 public class C1_20 {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         int n = 5; // 假设我们生成5阶的帕斯卡三角形
         List<List<Integer>> triangle = generatePascalTriangle(n);
@@ -12,6 +20,12 @@ public class C1_20 {
         }
     }
 
+    /**
+     * Generate pascal triangle list.
+     *
+     * @param numRows the num rows
+     * @return the list
+     */
     public static List<List<Integer>> generatePascalTriangle(int numRows) {
         List<List<Integer>> triangle = new ArrayList<>();
 
