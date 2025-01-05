@@ -1,7 +1,15 @@
 import java.util.Random;
 import java.util.Scanner;
 
+/**
+ * The type C 2 2.
+ */
 public class C2_2 {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         // 使用Scanner读取用户输入
         Scanner scanner = new Scanner(System.in);
