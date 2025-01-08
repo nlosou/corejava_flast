@@ -36,7 +36,9 @@ class Queue {
                     this.data = data;
                     this.next = null;
                 }
-            }
+    }
+
+
 
             // 队列的头节点和尾节点
             private Node head;
