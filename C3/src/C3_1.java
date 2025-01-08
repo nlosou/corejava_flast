@@ -4,13 +4,15 @@
  *
  */
 
+import java.util.SplittableRandom;
+
 public class C3_1 {
 
     public static void main(String[] args) {
 // 创建 Employee 对象
-        text1.Employee emp1 = new text1.Employee(50000);
-        text1.Employee emp2 = new text1.Employee(60000);
-        text1.Employee emp3 = new text1.Employee(70000);
+        text1.Employee emp1 = new text1.Employee(50000,"a");
+        text1.Employee emp2 = new text1.Employee(60000,"b");
+        text1.Employee emp3 = new text1.Employee(70000,"c");
 
         // 创建 Measurable 对象数组
         text1.Measurable[] employees = {emp1, emp2, emp3};
@@ -32,9 +34,11 @@ class  text1{
 
     public static class Employee implements Measurable{
         private double salay;
-        public Employee(double salay)
+        private String name;
+        public Employee(double salay,String name)
         {
             this.salay=salay;
+            this.name=name;
         }
         @Override
         public double getMeasure()
@@ -55,6 +59,8 @@ class  text1{
             }
             return sum / objects.length; // 计算平均值
         }
+
+
     }
 
 
