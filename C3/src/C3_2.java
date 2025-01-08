@@ -27,7 +27,7 @@ class  text2{
 
     //@FunctionalInterface
     public interface Measurable{
-        double getMeasure();
+         double getMeasure();
         String getName();
     }
 
