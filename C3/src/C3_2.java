@@ -81,9 +81,6 @@ class  text2{
             }
             return  A;
         }
-
-
-
     }
 
 
