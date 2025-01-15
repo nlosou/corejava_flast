@@ -45,8 +45,10 @@ class LabeledPoint_2 extends Point{
         this.label=label;
 
     }
-
     public String getLabel() {
         return label;
+    }
+    public String toString() {
+        return super.toString() + " (" + label + ", " + x + ", " + y + ")";
     }
 }
