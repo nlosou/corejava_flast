@@ -9,9 +9,10 @@ public class C4_2 {
     {
         Point_2 a= new Point_2(5,6);
         System.out.println(a.getY());
+        System.out.println(a.toString());
         LabeledPoint_2 b= new LabeledPoint_2("ajaja",66,33);
-        System.out.print(b.getLabel());
-        System.out.println(b.getY());
+        System.out.println(b.toString());
+
     }
 }
 class Point_2{
@@ -29,6 +30,10 @@ class Point_2{
 
     public double getY() {
         return y;
+    }
+    public String toString()
+    {
+        return super.toString()+"改写了";
     }
 }
 
