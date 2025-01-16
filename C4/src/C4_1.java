@@ -14,11 +14,12 @@ public class C4_1 {
         LabeledPoint b=new LabeledPoint("ajaja",66,33);
         System.out.print(b.getLabel());
         System.out.println(b.getY());
+        b.print_();
     }
 }
  class Point{
-     double x;
-     double y;
+     protected double x;
+     protected double y;
     public Point(double x, double y)
     {
         this.x=x;
@@ -45,5 +46,10 @@ public class C4_1 {
 
      public String getLabel() {
          return label;
+     }
+
+     public void print_()
+     {
+         System.out.println(x+y);
      }
  }
