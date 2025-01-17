@@ -31,7 +31,7 @@ public class C5_1 {
     public static void main(String[] args) {
         C5_1 c5_1 = new C5_1();
         try {
-            ArrayList<Double> values = c5_1.readValues("path/to/your/file.txt");
+            ArrayList<Double> values = c5_1.readValues("/home/noser/java/C5/src/file.txt");
             System.out.println(values);
         } catch (IOException e) {
             System.out.println("读取文件时发生错误：" + e.getMessage());
